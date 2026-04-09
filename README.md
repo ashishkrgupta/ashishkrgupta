@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00C2FF&center=true&vCenter=true&width=800&lines=Senior+Java+Engineer;Distributed+Systems+Architect;Kafka+%7C+Microservices+%7C+Cloud;Building+Scalable+Fintech+Systems;Exploring+AI+%26+LLM+Integrations" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00C2FF&center=true&vCenter=true&width=800&lines=Senior+Staff+Engineer;Distributed+Systems+Architect;Kafka+%7C+Microservices+%7C+Cloud;Building+Scalable+Fintech+Systems;Exploring+AI+%26+LLM+Integrations" />
 </p>
 
 <h1 align="center">Hi 👋, I'm Ashish Kumar Gupta</h1>
