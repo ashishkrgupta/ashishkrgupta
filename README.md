@@ -12,6 +12,11 @@
 <a href="https://linkedin.com/in/https://in.linkedin.com/in/ashish-kumar-gupta-9a183525" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://in.linkedin.com/in/ashish-kumar-gupta-9a183525" height="30" width="40" /></a>
 <a href="https://stackoverflow.com/users/ashishkrgupta@hotmail.com" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="ashishkrgupta@hotmail.com" height="30" width="40" /></a>
 <a href="https://instagram.com/ashishkrgupta92" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="ashishkrgupta92" height="30" width="40" /></a>
+  <a aria-label="Chat on WhatsApp" href="https://wa.me/7208769992"> <img alt="Chat on WhatsApp" src="WhatsAppButtonGreenLarge.png" />
+<a />
+  <a href="tel:+917208769992">
+  <i class="fa fa-phone"></i> Call
+</a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
