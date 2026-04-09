@@ -1,1 +1,102 @@
-<img src="Screenshot 2026-04-09 at 2.50.27 PM.png"/>
+<!-- 🔥 Banner -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=250&section=header&text=Ashish%20Kumar%20Gupta&fontSize=45&fontAlignY=38&desc=Java%20%7C%20Spring%20Boot%20%7C%20Kafka%20%7C%20AWS%20%7C%20AI%20%7C%20Building%20Scalable%20Systems&descAlignY=63&descSize=20&fontColor=ffffff" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00C2FF&center=true&vCenter=true&width=800&lines=Senior+Java+Engineer;Distributed+Systems+Architect;Kafka+%7C+Microservices+%7C+Cloud;Building+Scalable+Fintech+Systems;Exploring+AI+%26+LLM+Integrations" />
+</p>
+
+<h1 align="center">Hi 👋, I'm Ashish Kumar Gupta</h1>
+<h3 align="center">Senior Staff Engineer | Cloud Architect | Distributed Systems Expert</h3>
+
+---
+## 🏷️ Badges
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-21-orange" />
+  <img src="https://img.shields.io/badge/SpringBoot-3.x-brightgreen" />
+  <img src="https://img.shields.io/badge/Kafka-EventDriven-black" />
+  <img src="https://img.shields.io/badge/AWS-Cloud-orange" />
+  <img src="https://img.shields.io/badge/Kubernetes-Orchestration-blue" />
+  <img src="https://img.shields.io/badge/Docker-Container-blue" />
+  <img src="https://img.shields.io/badge/Redis-Cache-red" />
+  <img src="https://img.shields.io/badge/CI/CD-Automation-success" />
+  <img src="https://img.shields.io/badge/Microservices-Architecture-blue" />
+  <img src="https://img.shields.io/badge/React-Frontend-61DAFB" />
+  <img src="https://img.shields.io/badge/AI-LLM%20Integration-purple" />
+</p>
+
+---
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,spring,kafka,aws,docker,kubernetes,redis,react,git&perline=5" />
+</p>
+
+---
+
+## 🚀 About Me
+
+- 💼 13+ years of experience in **Java & Spring Boot**
+- 🏗️ Architecting **scalable microservices & distributed systems**
+- ⚡ Strong in **Kafka & event-driven architecture**
+- 🔄 Building **high-throughput, fault-tolerant systems**
+- 🤖 Exploring **AI/LLM integrations in enterprise systems**
+- 🏦 Experience aligned with **investment banking-grade architectures**
+- ⚡ Expert in **Java, Spring Boot, Microservices**
+- ☁️ Cloud-native (**AWS, Kubernetes, Docker, CI/CD**)
+- 🤖 Building **AI-powered backend systems (LLMs, agents, automation)**
+
+---
+
+## 🧠 Skills Matrix
+
+| Category              | Technologies |
+|----------------------|-------------|
+| 💻 Backend           | Java, Spring Boot, Microservices |
+| ⚡ Event Streaming   | Kafka, Event-Driven Architecture |
+| ☁️ Cloud             | AWS (EKS, S3, Lambda) |
+| 📦 Containers        | Docker, Kubernetes |
+| 🗄️ Data             | PostgreSQL, MongoDB, Redis |
+| 🔄 DevOps            | CI/CD, GitHub Actions, Jenkins |
+| 🎨 Frontend          | React | Angular |
+| 🤖 AI / LLM          | OpenAI APIs, Vector DB, Prompt Engineering |
+| 🧱 Architecture      | Distributed Systems, High Availability, Scalability |
+| ⚡ Caching           | Redis (Distributed Cache, Pub/Sub) |
+---
+
+## 📌 Featured Projects
+
+- 🤖 AI Backend Assistant (LLM integration)
+- 📊 Streaming Analytics Platform
+- ☁️ Cloud-Native Microservices Platform
+
+---
+## 📌 Contribution Graph
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ashishkrgupta" style="height:100px"/>
+
+## 🧠 What I Do
+
+```text
+Design → Build → Scale → Optimize → Automate
+```
+---
+
+📫 Connect With Me <br/>
+- 💼 LinkedIn: https://www.linkedin.com/in/ashish-kumar-gupta-9a183525/ <br/>
+- 💻 GitHub: https://github.com/ashishkrgupta
+
+## ⚡ Value Proposition
+
+> I build **high-performance, scalable, event-driven systems** with a strong focus on **real-time processing and AI-powered innovation**, aligned with modern **fintech and investment banking platforms**.
+
+---
+
+<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:243B55,100:141E30&height=120&width100%&section=footer"/> </p> 
+
+
+
+
+
+
+
