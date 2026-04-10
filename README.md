@@ -7,10 +7,42 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00C2FF&center=true&vCenter=true&width=800&lines=Senior+Staff+Engineer;Distributed+Systems+Architect;Kafka+%7C+Microservices+%7C+Cloud;Building+Scalable+Fintech+Systems;Exploring+AI+%26+LLM+Integrations" />
 </p>
 
-<h1 align="center">Hi 👋, I'm Ashish Kumar Gupta</h1>
-<h3 align="center">Senior Staff Engineer | Cloud Architect | Distributed Systems Expert</h3>
+
+
 
 ---
+
+<h3 align="center">
+  Senior Java Engineer • Distributed Systems Architect • AI Enthusiast
+</h3>
+
+<p align="center">
+  <a href="mailto:your-email@example.com">
+    <img src="https://img.shields.io/badge/📩%20Hire%20Me-Now-ff6b6b?style=for-the-badge" />
+  </a>
+  <a href="https://www.linkedin.com/in/ashish-kumar-gupta-9a183525/">
+    <img src="https://img.shields.io/badge/🔗%20LinkedIn-Profile-blue?style=for-the-badge" />
+  </a>
+  <a href="https://github.com/ashishkrgupta">
+    <img src="https://img.shields.io/badge/💻%20GitHub-Repos-black?style=for-the-badge" />
+  </a>
+</p>
+
+
+
+<p align="center">
+  💡 I design and build <b>high-scale distributed systems</b> using  
+  <b>Java, Kafka, Cloud, and AI technologies</b>
+</p>
+
+<p align="center">
+  ⚡ Passionate about <b>real-time systems, microservices, and intelligent platforms</b>
+</p>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=800&color=FF6B6B&center=true&vCenter=true&width=400&lines=Open+to+Opportunities;Available+for+Senior+Roles;Let's+Build+Something+Great" />
+</p>
+
+
 ## 🏷️ Badges
 
 <p align="center">
@@ -28,6 +60,9 @@
 </p>
 
 ---
+
+
+## 🧠 Skills
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,spring,kafka,aws,docker,kubernetes,redis,react,git&perline=5" />
