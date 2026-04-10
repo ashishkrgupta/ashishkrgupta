@@ -58,7 +58,7 @@
 ## 🧠 Skills
 
   <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,kafka,aws,docker,kubernetes,redis,react,angular,git,js,html,mongo,mysql,postgres,python,fastapi,flask,ai,figma,npm,ubuntu,grafana,jenkins,idea,postman,sublime,vscode,git,github,eclipse,aiscript,apple,windows&perline=20" height="90"/>
+  <img src="https://skillicons.dev/icons?i=java,spring,kafka,aws,docker,kubernetes,redis,react,angular,git,js,html,mongo,mysql,postgres,python,fastapi,flask,ai,figma,npm,ubuntu,grafana,jenkins,idea,postman,sublime,vscode,jquery,github,eclipse,aiscript,apple,windows&perline=20" height="90"/>
 </p>
 
 
