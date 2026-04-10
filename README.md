@@ -3,18 +3,10 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=250&section=header&text=Ashish%20Kumar%20Gupta&fontSize=45&fontAlignY=38&desc=Java%20%7C%20Spring%20Boot%20%7C%20Kafka%20%7C%20AWS%20%7C%20AI%20%7C%20Building%20Scalable%20Systems&descAlignY=63&descSize=20&fontColor=ffffff" />
 </p>
 
-<p align="center">
+<p align="center" style="height:0px">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00C2FF&center=true&vCenter=true&width=800&lines=Senior+Staff+Engineer;Distributed+Systems+Architect;Kafka+%7C+Microservices+%7C+Cloud;Building+Scalable+Fintech+Systems;Exploring+AI+%26+LLM+Integrations" />
 </p>
 
-
-
-
----
-
-<h3 align="center">
-  Senior Java Engineer • Distributed Systems Architect • AI Enthusiast
-</h3>
 
 <p align="center">
   <a href="mailto:ashishkrgupta@hotmail.com">
