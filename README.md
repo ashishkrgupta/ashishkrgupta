@@ -58,7 +58,7 @@
 ## 🧠 Skills
 
   <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,kafka,aws,docker,kubernetes,redis,react,angular,git,js&perline=15" height="90"/>
+  <img src="https://skillicons.dev/icons?i=java,spring,kafka,aws,docker,kubernetes,redis,react,angular,git,js,html,mongo,mysql,python,fastapi,flask,ai&perline=20" height="90"/>
 </p>
 
 
