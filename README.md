@@ -17,7 +17,7 @@
 </h3>
 
 <p align="center">
-  <a href="mailto:your-email@example.com">
+  <a href="mailto:ashishkrgupta@hotmail.com">
     <img src="https://img.shields.io/badge/📩%20Hire%20Me-Now-ff6b6b?style=for-the-badge" />
   </a>
   <a href="https://www.linkedin.com/in/ashish-kumar-gupta-9a183525/">
