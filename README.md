@@ -38,6 +38,7 @@
 ## 🏷️ Badges
 
 <p align="center">
+  
   <img src="https://img.shields.io/badge/Java-21-orange" />
   <img src="https://img.shields.io/badge/SpringBoot-3.x-brightgreen" />
   <img src="https://img.shields.io/badge/Kafka-EventDriven-black" />
@@ -56,9 +57,11 @@
 
 ## 🧠 Skills
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,kafka,aws,docker,kubernetes,redis,react,git&perline=5" />
+  <p align="center">
+  <img src="https://skillicons.dev/icons?i=java,spring,kafka,aws,docker,kubernetes,redis,react,angular,git,js&perline=15" height="90"/>
 </p>
+
+
 
 ---
 
