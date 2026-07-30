@@ -89,7 +89,7 @@ function App() {
         <div className="quick-contact">
           <a href="tel:+917208769992" aria-label="Call Ashish"><span className="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.9.33 1.78.62 2.64a2 2 0 0 1-.45 2.11L8 9.75a16 16 0 0 0 6 6l1.28-1.28a2 2 0 0 1 2.11-.45c.86.29 1.74.5 2.64.62A2 2 0 0 1 22 16.92z" /></svg></span><i>Call</i></a>
           <a href="https://wa.me/917208769992" target="_blank" rel="noreferrer" aria-label="Message Ashish on WhatsApp"><span className="contact-icon"><img src="https://cdn.simpleicons.org/whatsapp/25D366" alt="" /></span><i>WhatsApp</i></a>
-          <a href="/src/assets/Ashish_Kumar_Gupta_Resume.pdf" download="Ashish-Kumar-Gupta-Resume.pdf" aria-label="Download resume" rel="noreferrer" aria-label="Download resume"><i>Resume <b>↓</b></i></a>
+          <a href="/Ashish_Kumar_Gupta_Resume.pdf" download="Ashish-Kumar-Gupta-Resume.pdf" aria-label="Download resume" rel="noreferrer" aria-label="Download resume"><i>Resume <b>↓</b></i></a>
         </div>
         <button className="theme-toggle" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} theme`} title="Toggle color theme"><span>{theme === 'dark' ? '☀' : '☾'}</span><i>{theme === 'dark' ? 'Light' : 'Dark'}</i></button>
         <button className="menu" onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle navigation">{menuOpen ? '×' : '☰'}</button>
