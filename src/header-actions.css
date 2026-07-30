@@ -1,0 +1,9 @@
+.quick-contact { display:flex; gap:6px; align-items:center; }
+.quick-contact a { display:flex; align-items:center; gap:5px; border:1px solid var(--line); border-radius:20px; padding:5px 9px; color:#d6e5f2; background:rgba(255,255,255,.04); font:10px var(--mono); text-decoration:none; transition:transform .2s, background .2s; }
+.quick-contact a:hover { transform:translateY(-2px); background:rgba(117,214,255,.15); }
+.quick-contact a:last-child { color:#bff5d0; border-color:rgba(87,218,135,.38); background:rgba(64,174,107,.12); }
+.quick-contact span { font-size:13px; line-height:1; }.quick-contact i { font-style:normal; }
+:root[data-theme="light"] .quick-contact a { color:#193c59; background:#fff; border-color:rgba(23,61,93,.16); }
+:root[data-theme="light"] .quick-contact a:last-child { color:#12683b; background:#e2f7ea; border-color:#b9e7cd; }
+@media(max-width:760px){.quick-contact i{display:none}.quick-contact a{padding:6px}.quick-contact{gap:4px}}
+@media(max-width:430px){.quick-contact{display:none}}

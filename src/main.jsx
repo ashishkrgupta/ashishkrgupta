@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import './styles.css';
+import './header-actions.css';
 
 const roles = [
   {
@@ -64,6 +65,10 @@ function App() {
         <nav className={menuOpen ? 'links links--open' : 'links'}>
           <button onClick={() => jump('#experience')}>Experience</button><button onClick={() => jump('#expertise')}>Expertise</button><button onClick={() => jump('#contact')}>Contact</button>
         </nav>
+        <div className="quick-contact">
+          <a href="tel:+917208769992" aria-label="Call Ashish"><span>☎</span><i>Call</i></a>
+          <a href="https://wa.me/917208769992" target="_blank" rel="noreferrer" aria-label="Message Ashish on WhatsApp"><span>◔</span><i>WhatsApp</i></a>
+        </div>
         <button className="theme-toggle" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} theme`} title="Toggle color theme"><span>{theme === 'dark' ? '☀' : '☾'}</span><i>{theme === 'dark' ? 'Light' : 'Dark'}</i></button>
         <button className="menu" onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle navigation">{menuOpen ? '×' : '☰'}</button>
       </div>
