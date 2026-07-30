@@ -4,6 +4,8 @@ import './styles.css';
 import './header-actions.css';
 import './company-logos.css';
 import './skill-badges.css';
+import './contact-actions.css';
+import './profile-presence.css';
 
 const roles = [
   {
@@ -46,10 +48,10 @@ const skills = [
 ];
 
 const skillIcons = {
-  'Distributed Systems': ['apachekafka', 'DS', '231F20'], 'Microservices': ['springboot', 'µS', '6DB33F'], 'Event-driven': ['apachekafka', 'EV', '231F20'], 'CQRS': ['eventstore', 'CQ', '5C2D91'], 'System Design': ['diagramsdotnet', 'SD', 'F08705'],
-  'Java': ['openjdk', 'J', 'ED8B00'], 'Spring Boot': ['springboot', 'SB', '6DB33F'], 'Python': ['python', 'Py', '3776AB'], 'FastAPI': ['fastapi', 'FA', '009688'], 'JavaScript': ['javascript', 'JS', 'F7DF1E'],
-  'Apache Kafka': ['apachekafka', 'K', '231F20'], 'Redis': ['redis', 'R', 'DC382D'], 'PostgreSQL': ['postgresql', 'PG', '4169E1'], 'MongoDB': ['mongodb', 'M', '47A248'], 'Elasticsearch': ['elasticsearch', 'ES', '005571'],
-  'AWS': ['amazonaws', 'AWS', 'FF9900'], 'Kubernetes': ['kubernetes', 'K8s', '326CE5'], 'Docker': ['docker', 'D', '2496ED'], 'Jenkins': ['jenkins', 'J', 'D24939'], 'CI/CD': ['githubactions', 'CI', '2088FF']
+  'Distributed Systems': ['apachekafka', 'DS', '231F20', null], 'Microservices': ['springboot', 'µS', '6DB33F', 'https://spring.io/microservices'], 'Event-driven': ['apachekafka', 'EV', '231F20', 'https://kafka.apache.org/documentation/'], 'CQRS': ['eventstore', 'CQ', '5C2D91', 'https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs'], 'System Design': ['diagramsdotnet', 'SD', 'F08705', null],
+  'Java': ['openjdk', 'J', 'ED8B00', 'https://docs.oracle.com/en/java/'], 'Spring Boot': ['springboot', 'SB', '6DB33F', 'https://docs.spring.io/spring-boot/'], 'Python': ['python', 'Py', '3776AB', 'https://docs.python.org/3/'], 'FastAPI': ['fastapi', 'FA', '009688', 'https://fastapi.tiangolo.com/'], 'JavaScript': ['javascript', 'JS', 'F7DF1E', 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'],
+  'Apache Kafka': ['apachekafka', 'K', '231F20', 'https://kafka.apache.org/documentation/'], 'Redis': ['redis', 'R', 'DC382D', 'https://redis.io/docs/latest/'], 'PostgreSQL': ['postgresql', 'PG', '4169E1', 'https://www.postgresql.org/docs/'], 'MongoDB': ['mongodb', 'M', '47A248', 'https://www.mongodb.com/docs/'], 'Elasticsearch': ['elasticsearch', 'ES', '005571', 'https://www.elastic.co/guide/'],
+  'AWS': ['amazonaws', 'AWS', 'FF9900', 'https://docs.aws.amazon.com/'], 'Kubernetes': ['kubernetes', 'K8s', '326CE5', 'https://kubernetes.io/docs/'], 'Docker': ['docker', 'D', '2496ED', 'https://docs.docker.com/'], 'Jenkins': ['jenkins', 'J', 'D24939', 'https://www.jenkins.io/doc/'], 'CI/CD': ['githubactions', 'CI', '2088FF', 'https://docs.github.com/en/actions']
 };
 
 function CompanyLogo({ role }) {
@@ -57,8 +59,9 @@ function CompanyLogo({ role }) {
 }
 
 function SkillBadge({ skill }) {
-  const [icon, initials, color] = skillIcons[skill];
-  return <button className="skill-badge" onClick={() => navigator.clipboard?.writeText(skill)} title={`Copy ${skill}`}><span className="skill-icon"><img src={`https://cdn.simpleicons.org/${icon}/${color}`} alt="" onError={(event) => { event.currentTarget.hidden = true; event.currentTarget.parentElement.classList.add('skill-icon--fallback'); }} /><b>{initials}</b></span><span>{skill}</span></button>;
+  const [icon, initials, color, docsUrl] = skillIcons[skill];
+  const logo = <><img src={`https://cdn.simpleicons.org/${icon}/${color}`} alt="" onError={(event) => { event.currentTarget.hidden = true; event.currentTarget.parentElement.classList.add('skill-icon--fallback'); }} /><b>{initials}</b></>;
+  return <div className="skill-badge">{docsUrl ? <a className="skill-icon" href={docsUrl} target="_blank" rel="noreferrer" aria-label={`Open ${skill} documentation`} title={`Open ${skill} documentation`}>{logo}</a> : <span className="skill-icon skill-icon--static">{logo}</span>}<button className="skill-name" onClick={() => navigator.clipboard?.writeText(skill)} title={`Copy ${skill}`}>{skill}</button></div>;
 }
 
 function App() {
@@ -78,7 +81,7 @@ function App() {
   const jump = id => { document.querySelector(id)?.scrollIntoView({ behavior: 'smooth' }); setMenuOpen(false); };
   return <>
     <header className={scrolled ? 'nav nav--scrolled' : 'nav'}>
-      <button className="brand" onClick={() => jump('#top')} aria-label="Back to top"><span>AKG</span><i>ashish.dev</i></button>
+      <button className="brand" onClick={() => jump('#top')} aria-label="Back to top"><span className="brand-mark" data-full-name="Ashish Kumar Gupta">AKG</span><i>ashish.dev</i></button>
       <div className="nav-actions">
         <nav className={menuOpen ? 'links links--open' : 'links'}>
           <button onClick={() => jump('#experience')}>Experience</button><button onClick={() => jump('#expertise')}>Expertise</button><button onClick={() => jump('#contact')}>Contact</button>
@@ -95,7 +98,7 @@ function App() {
     <main id="top">
       <section className="hero section">
         <div className="hero-copy reveal">
-          <p className="eyebrow"><span></span> Available for staff & principal opportunities</p>
+          <p className="eyebrow opportunity-badge"><span></span> Available for staff & principal opportunities</p>
           <h1>Building systems<br/>that <em>move fast.</em></h1>
           <p className="lede">I’m Ashish Kumar Gupta, a Senior Staff Engineer who turns complex, high-volume systems into dependable platforms for cybersecurity and fintech.</p>
           <div className="hero-actions"><a className="button button--primary" href="mailto:ashishkrgupta@hotmail.com">Let’s talk <b>↗</b></a><button className="button button--ghost" onClick={() => jump('#experience')}>Explore my work <b>↓</b></button></div>
@@ -133,7 +136,9 @@ function App() {
 
       <section className="open-source section"><div><p className="eyebrow">Beyond the day job</p><h2>Making integration<br/>work less repetitive.</h2></div><article><span className="package-icon">⌘</span><div><p>Open source package</p><h3>scnx-soar-integration-starter <a href="https://pypi.org/project/scnx-soar-integration-starter/" target="_blank" rel="noreferrer">↗</a></h3><span>Python SDK that helps security teams build SOAR connectors faster — cutting setup from four weeks to less than three days.</span></div></article></section>
 
-      <section id="contact" className="contact"><div className="section"><p className="eyebrow">Start a conversation</p><h2>Have a tough systems<br/>problem to solve?</h2><a href="mailto:ashishkrgupta@hotmail.com" className="email">ashishkrgupta@hotmail.com <span>↗</span></a><div className="contact-links"><a href="https://www.linkedin.com/in/ashish-kumar-gupta-9a183525" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="tel:+917208769992">+91 7208769992</a></div></div></section>
+      <section className="developer-presence section"><div className="section-title"><p className="eyebrow">Developer presence</p><h2>Learn more from<br/>my public work.</h2></div><div className="profile-cards"><a href="https://github.com/ashishkrgupta" target="_blank" rel="noreferrer" className="profile-card"><span className="profile-logo"><img src="https://cdn.simpleicons.org/github/ffffff" alt="" /></span><div><small>Open-source work</small><h3>GitHub</h3><p>github.com/ashishkrgupta</p></div><b>↗</b></a><a href="https://stackoverflow.com/users/8527240/ashish-kumar-gupta" target="_blank" rel="noreferrer" className="profile-card profile-card--stack"><span className="profile-logo"><img src="https://cdn.simpleicons.org/stackoverflow/F58025" alt="" /></span><div><small>Engineering knowledge</small><h3>Stack Overflow</h3><p>Ashish Kumar Gupta</p></div><b>↗</b></a></div></section>
+
+      <section id="contact" className="contact"><div className="section"><p className="eyebrow">Start a conversation</p><h2>Have a tough systems<br/>problem to solve?</h2><a href="mailto:ashishkrgupta@hotmail.com" className="email">ashishkrgupta@hotmail.com <span>↗</span></a><div className="contact-links contact-links--large"><a href="https://www.linkedin.com/in/ashish-kumar-gupta-9a183525" target="_blank" rel="noreferrer" className="contact-action">LinkedIn <span>↗</span></a><a href="tel:+917208769992" className="contact-action contact-phone" aria-label="Call Ashish at +91 7208769992"><span className="contact-phone-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.9.33 1.78.62 2.64a2 2 0 0 1-.45 2.11L8 9.75a16 16 0 0 0 6 6l1.28-1.28a2 2 0 0 1 2.11-.45c.86.29 1.74.5 2.64.62A2 2 0 0 1 22 16.92z" /></svg></span>+91 7208769992</a><a href="https://wa.me/917208769992" target="_blank" rel="noreferrer" className="contact-action contact-whatsapp" aria-label="Message Ashish on WhatsApp"><img src="https://cdn.simpleicons.org/whatsapp/25D366" alt="" /> WhatsApp <span>↗</span></a></div></div></section>
     </main>
     <footer><span>© {new Date().getFullYear()} Ashish Kumar Gupta</span><span>Designed & built with intent.</span></footer>
   </>;
